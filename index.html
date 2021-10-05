@@ -11,7 +11,7 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- My CSS-->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="static/css/styles.css">
 
     <!-- Bootstrap Icons-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
@@ -38,9 +38,10 @@
 <body>
 
 <section id="title">
-         <!-- Nav Bar -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark"><!--navbar navbar-expand-lg navbar-fixed-top navbar-dark-->
-            <div class="container-fluid" style="background-color:#e91e63">
+    <!-- Nav Bar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <!--navbar navbar-expand-lg navbar-fixed-top navbar-dark-->
+        <div class="container-fluid" style="background-color:#e91e63">
             <!-- navbar-expand-lg-->
             <a class="navbar-brand" href="#">TinDog</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -74,42 +75,42 @@
 
                 </ul>
             </div>
-            </div>
-        </nav>
+        </div>
+    </nav>
 
-        <!-- Title -->
+    <!-- Title -->
 
-        <div class="row mx-auto">
-            <div class="col-lg-6">
-                <div>
-                    <div><h1 class="font-weight-bold" style="color:DodgerBlue; padding-top: 50px;">
-                        Meet new and <br> interesting <br><small>cats</small><br> nearby</h1></div>
-                    <div class="container">
-                        <div class="row" style="text-align:center;padding-top: 100px; padding-bottom: 100px;">
-                            <div class="col-lg-5 down">
-                                <button class="btn btn-primary btn-lg" type="button" href="#"><i
-                                        class="fab fa-apple"></i>
-                                    Download
-                                </button>
-                            </div>
-                            <div class="col-lg-5 down">
-                                <button class="btn btn-outline-primary btn-lg " type="button" href="#"><i
-                                        class="fab fa-google-play"></i>
-                                    Download
-                                </button>
-                            </div>
+    <div class="row mx-auto">
+        <div class="col-lg-6">
+            <div>
+                <div><h1 class="font-weight-bold" style="color:DodgerBlue; padding-top: 50px;">
+                    Meet new and <br> interesting <br><small>cats</small><br> nearby</h1></div>
+                <div class="container">
+                    <div class="row" style="text-align:center;padding-top: 100px; padding-bottom: 100px;">
+                        <div class="col-lg-5 down">
+                            <button class="btn btn-primary btn-lg" type="button" href="#"><i
+                                    class="fab fa-apple"></i>
+                                Download
+                            </button>
+                        </div>
+                        <div class="col-lg-5 down">
+                            <button class="btn btn-outline-primary btn-lg " type="button" href="#"><i
+                                    class="fab fa-google-play"></i>
+                                Download
+                            </button>
                         </div>
                     </div>
                 </div>
+            </div>
 
-            </div>
-            <div class="col-lg-6" id="img-dog">
-                <!--            <div style="text-align:center">-->
-                <img class="title-image rotate" src="static/images/iphone6.png"
-                     alt="iphone-mockup">
-                <!--            </div>-->
-            </div>
         </div>
+        <div class="col-lg-6" id="img-dog">
+            <!--            <div style="text-align:center">-->
+            <img class="title-image rotate" src="static/images/iphone6.png"
+                 alt="iphone-mockup">
+            <!--            </div>-->
+        </div>
+    </div>
     </div>
 </section>
 
@@ -159,8 +160,14 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <h2 class="testimonial-text font-weight-bold">My dog used to be so lonely, but with TinDog's help,<br>
-                    they've found the love of their life. I think.</h2>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <h2 class="full-text testimonial-text font-weight-bold">My dog used to be so lonely, but with TinDog's
+                            help,<br> they've found the love of their life. I think.</h2>
+                        <h2 class="short-text testimonial-text font-weight-bold">With TinDog's
+                            help,my dog found the love of his life.</h2>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-sm-7 d-flex justify-content-end align-items-center"><img
                             class="rounded-circle d-block w-10 " src="static/images/lady-img.jpg" alt="First slide">
@@ -171,8 +178,9 @@
             </div>
 
             <div class="carousel-item">
-
-                <h2 class="testimonial-text font-weight-bold">I no longer have to sniff other dogs for love.<br> I've
+                <h2 class="full-text testimonial-text font-weight-bold">I no longer have to sniff other dogs for love.<br> I've
+                    found the hottest Corgi on TinDog. Woof, woof.</h2>
+                <h2 class="short-text testimonial-text font-weight-bold">I've
                     found the hottest Corgi on TinDog. Woof, woof.</h2>
 
                 <div class="row">
@@ -200,7 +208,7 @@
     <div class="row">
         <div class="col-lg-3 d-flex justify-content-center align-items-center pr">
             <a href="https://techcrunch.com/" target="_blank">
-                <img src="static/images/TechCrunch.png" style="width:90%" ; alt="tc-logo">
+                <img src="static/images/techcrunch.png" style="width:90%" ; alt="tc-logo">
             </a>
         </div>
         <div class="col-lg-3 d-flex justify-content-center align-items-center pr">
