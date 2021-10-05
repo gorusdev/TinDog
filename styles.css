@@ -1,0 +1,211 @@
+html, body{
+font-family: "Montserrat";
+background-color: #e91e63;
+padding: 0 7%;
+
+}
+
+.container-fluid{
+    padding: 3% 5% 1%;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: "Montserrat";
+        font-size: 3rem;
+        line-height: 1.5;
+        font-weight: 400;
+
+
+}
+.navbar{
+    padding-top:0;
+    padding-bottom: 4.5rem;
+
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight:bold;
+
+}
+
+/*.navbar-dark .navbar-brand:hover {
+    color:DodgerBlue;
+}*/
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:DodgerBlue;
+}
+
+.nav-link{
+    font-size:1.2rem;
+    font-family:"Montserrat";
+    font-weight:light;
+}
+
+.navbar-nav .dropdown-menu{
+    position: relative;
+    text-align: center;
+}
+/*.collapse.show {
+    display: block;
+    text-align: right;
+}*/
+#title {
+    background-color: #e91e63;
+    padding-top:125px;
+/*    padding-left: 50px;
+    padding-right: 50px;*/
+}
+
+.down {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.title-image{
+    width:60%;
+    padding-top:40px;
+    padding-left:50px;
+    position: absolute;
+    right:25%;
+}
+
+.rotate{
+    transform: rotate(25deg);
+}
+
+#features{
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+    /*z-index:2;*/
+}
+
+.card-title{
+    font-family:"Montserrat";
+    font-weight:900;
+}
+
+.fas:hover{
+    color:DodgerBlue !important;
+}
+
+.far:hover{
+    color:DodgerBlue !important;
+}
+
+#testimonials{
+    background-color: #e91e63;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px
+}
+
+.rounded-circle {
+    border-radius: 50%;
+    min-width: 10%
+    /**/
+  }
+
+.carousel-item h2{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    text-align: center;
+    color:DodgerBlue;
+}
+
+/*#outside {
+      border: 5px solid #000;
+      padding: 5px;
+  position:relative;
+ }
+
+#inside{
+background:red;
+  position:absolute;
+  top:60px;
+  left:10px;
+  right:10px;
+}*/
+
+#press {
+    background-color: #e91e63;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.pr {
+padding-bottom:35px;
+}
+
+#pricing {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+        }
+
+
+#cta {
+    background-color: #e91e63;
+        }
+
+
+#footer{
+    background-color:#fff;
+    text-align:center;
+    padding-bottom:30px;
+
+}
+
+#footer p{
+    color:DodgerBlue;
+}
+.container p{
+    margin-bottom: 0;
+}
+.foot{
+    padding: 30px 25px;
+    padding-right: 10px;
+    }
+
+.fab:hover{
+    color:DodgerBlue !important;
+}
+
+@media(max-width:1024px){
+.title-image{
+    position:static;
+    transform: rotate(0deg);
+    max-width:50%;
+    }
+#title{
+    text-align:center;
+    }
+
+}
+
+@media(max-width:1024px){
+.carousel-item h2{
+    padding:0 20px;
+    font-size:2rem;
+    }
+}
