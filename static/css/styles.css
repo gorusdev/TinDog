@@ -200,7 +200,9 @@ padding-bottom:35px;
 #title{
     text-align:center;
     }
-
+.card-body h2{
+    font-size:2rem;
+    }
 }
 
 @media(max-width:1024px){
