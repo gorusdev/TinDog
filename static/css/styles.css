@@ -76,7 +76,7 @@ h2 {
 }
 
 .title-image{
-    width:60%;
+    min-width:80%;
     padding-top:40px;
     padding-left:50px;
     position: absolute;
